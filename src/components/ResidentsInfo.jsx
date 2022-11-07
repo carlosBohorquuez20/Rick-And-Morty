@@ -4,19 +4,13 @@ import '../index.css'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
-// name,image,status, origin.name,episode.length
-
 const ResidentsInfo = ({ imgChar }) => {
-  // resident es una url
-
-
-
   return (
     <article>
       <div className='name-character'><p>{imgChar.name}</p></div>
-      <img src={imgChar.image} alt="profile-image" className='img-character'/>
+      <img src={imgChar.image} alt="profile-image" className='img-character' />
       <div className='status-color'>
-        <div className={`circle-status ${imgChar.status == "Alive" ? "color-alive" : "color-death"}`} ></div>
+        <div className={`circle-status ${imgChar.status == "Alive" ? "color-alive" : "color-death"} ${imgChar.status == "unknown" ? "color-unknown" : ""}`} ></div>
         <div> <p>{imgChar.status}</p></div>
       </div>
       <div className="info-character">
