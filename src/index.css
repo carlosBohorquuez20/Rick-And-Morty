@@ -1,0 +1,21 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    
+    --background-color:#090e09;
+    --background-resident-info:#06f006;
+    --text-color-resident-data:#FBFBFB;
+    --text-color-resident-info:#7714f8;
+    --text-color-status:white;
+    --background-color-status-live:#4AB648
+    --background-color-status-no-informatio
+    --background-color-status-no-died:#B94
+    --line:#084851;
+    --background-input:#e709d5;
+    /* --background-color:#; */
+
+}
