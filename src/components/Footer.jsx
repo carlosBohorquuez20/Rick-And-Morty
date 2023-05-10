@@ -3,8 +3,8 @@ import React from 'react';
 const Footer = () => {
   return (
     <div>
-      <h3>Developers:</h3>
-      <p>Ludy baina & Carlos Bohorquez Parra</p>
+      <h3>Developer:</h3>
+      <p>Carlos Bohorquez Parra</p>
     </div>
   );
 };
